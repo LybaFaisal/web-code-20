@@ -1,4 +1,4 @@
-//multiple conditions
+// //multiple conditions
 
 let number;
 number=10;
@@ -41,4 +41,47 @@ else if(temp>=30 && temp<40)
 }
 else{
     document.write("Hot temperature");
+}
+
+// using switch
+
+var tempp= 30;
+
+switch(true)
+{
+    case tempp<0:
+        {
+            document.write("Freezing");
+            break;
+        }
+    case tempp<10:
+        {
+            document.write("Very Cold");
+            break;
+        }
+    case tempp<20:
+        {
+            document.write("Cold");
+            break;
+        } 
+    case tempp<30:
+        {
+            document.write("Mid");
+            break;
+        }    
+    case tempp<40:
+        {
+            document.write("Warm");
+            break;
+        }    
+    case tempp<50:
+        {
+            document.write("Hot");
+            break;
+        }    
+    default:
+        {
+            document.write("Invalid Temperature");
+            break;
+        }    
 }
