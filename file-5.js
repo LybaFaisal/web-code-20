@@ -1,5 +1,5 @@
 // //multiple conditions
-
+//example 1
 let number;
 number=10;
 
@@ -14,7 +14,7 @@ else if(number==0)
 else{
     document.write("Number is less than zero");
 }
-
+//example 2
 
 let temp=30;
 
@@ -44,7 +44,7 @@ else{
 }
 
 // using switch
-
+//example 3
 var tempp= 30;
 
 switch(true)
@@ -87,7 +87,7 @@ switch(true)
 }
 
 
-//switch
+//switch example 4
 
 let fruit;
 fruit= "cherry";
@@ -120,4 +120,50 @@ switch(fruit)
             document.write("Invalid Fruit");
             break;
         }    
+}
+
+
+
+
+//example 5
+
+var month;
+month= "december";
+
+switch(month)
+{
+    case "january":
+    case "december":
+    case "november":
+        {
+            document.write("Winter Season");
+            break;
+        }
+    case "february":
+    case "march":
+    case "april":
+        {
+            document.write("Mid Season");
+            break;
+        }   
+    case "may":
+    case "june": 
+    case "july":
+        {
+            document.write("Summer Season");
+            break;
+        }        
+    case "august":
+    case "september":
+    case "october":
+        {
+            document.write("Normal Season");
+            break;
+        }    
+   default:
+   {
+    document.write("Invalid month");
+    break;
+   }          
+
 }
