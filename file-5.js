@@ -85,3 +85,39 @@ switch(true)
             break;
         }    
 }
+
+
+//switch
+
+let fruit;
+fruit= "cherry";
+
+switch(fruit)
+{
+    case "apple":
+    case "cherry":
+    {
+        document.write("This is red fruit!");
+        break;
+    }
+    case "mango":
+        {
+            document.write("This is yellow fruit!");
+            break;
+        }
+    case "orange":
+        {
+            document.write("This is Orange Fruit!");
+            break;
+        }    
+    case "grapes":
+        {
+            document.write("This is purple and green fruit!");
+            break;
+        }    
+    default:
+        {
+            document.write("Invalid Fruit");
+            break;
+        }    
+}
